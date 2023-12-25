@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Les rues de la ville\nSont animées\nDécorées avec style festif\nDans l\'air\nOn ressent\nLa magie de Noël...\n\n\nJoyeux Noël et Bonnes fêtes\nDe la part de GLOIRE ONDONGO!';
+var txt = 'Les rues de la ville\nSont animées\nDécorées avec style festif\nDans l\'air\nOn ressent\nLa magie de Noël...\n\n\nJoyeux Noël et Bonnes fêtes\nDe la part de Mondésire NGANGA!';
 
 var speed = 50;
 
