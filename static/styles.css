@@ -1,0 +1,94 @@
+body{
+  position:relative;
+      background-image: url("https://media.cntraveler.com/photos/5dd6449fe16fe900083fa7d6/master/w_1920%2Cc_limit/Tallinn-Christmas-Market-GettyImages-1129432682.jpg"),
+  url("https://wallpaperset.com/w/full/2/b/4/25622.jpg")  ;
+    background-position:  center center ;
+     background-repeat:  no-repeat, repeat;
+     background-color: #000;
+  background-size:  contain, cover;
+    background-attachment: fixed;
+    margin:   0;
+    width: 100%; height: 100%;
+   overflow: hidden;
+  
+  }
+  html, body { margin: 0; width: 100%; height: 100%; }
+  
+  .flakes circle {
+        animation:
+          flake-sway 2s ease-in-out 0s infinite normal both,
+          flake-drop 5s ease-out 0s infinite normal both;
+      }
+      @keyframes flake-sway {
+          0% { transform: translateX(-40px); }
+         50% { transform: translateX( 40px); }
+        100% { transform: translateX(-40px); }
+      }
+      @keyframes flake-drop {
+          0% { opacity: 1; cy: -10px; }
+         60% { opacity: 1; }
+        100% { opacity: 0; cy: calc(100% + 5px); }
+      }
+  
+  .type {
+    white-space: pre-wrap;
+    position: absolute;
+    font-size: 30px;
+    left: 18%;
+    top: 50px;
+  }
+  
+  
+  
+  /*
+  for download image
+  Photo by Pixabay from Pexels: https://www.pexels.com/photo/snowy-forest-235621/
+  */
+  div#snow {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      filter: blur(0px);
+      background-color: white;
+      position: absolute;
+      animation: fall 10s linear infinite;
+      top: -50px;
+  }
+  
+  @keyframes fall {
+      100%{top: 100%;}
+  }
+  
+  
+  .song {
+      position: absolute;
+   
+    left: -50px;
+    display: flex;
+    align-items: center;
+    font-size: 2.1em;
+    font-family: "Roboto";
+    margin-left: 15%;
+    margin-top: 50px;
+    
+  }
+  .pause {
+    margin-left: 0.5em;
+    cursor:pointer;
+    
+  }
+  @media (min-width: 1100px) {
+   .type {
+  left: 25%;
+    } 
+     .song{
+  left: 3%;
+      }
+  
+    }
+  @media (max-width: 1100px) {
+      body{
+        background-size:  cover, cover;
+      }
+  
+    }
